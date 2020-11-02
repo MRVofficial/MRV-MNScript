@@ -184,7 +184,7 @@ done
     mrv_coin-cli stop
     sleep 5
 cd ~/.mrvcoin/ && rm -rf blocks chainstate sporks
-cd ~/.mrvcoin/ && wget http://165.22.100.153/bootstrap.tar.gz
+cd ~/.mrvcoin/ && wget https://github.com/MRVofficial/MRVCoin/releases/download/v1.0/bootstrap.tar.gz
 cd ~/.mrvcoin/ && tar -xzvf bootstrap.tar.gz
 sudo rm -rf ~/.mrvcoin/bootstrap.tar.gz
 
